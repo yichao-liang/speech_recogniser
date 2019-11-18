@@ -1,0 +1,37 @@
+#!/usr/bin/bash
+
+
+# to use your own data, this automatically sets USER to be your username
+#USER=${USER:-`whoami`}
+# and this is the path to where your data was placed by the make_mfccs script
+DATA=/Volumes/Network/courses/sp/data_upload
+# The place where the labels are stored
+LABELLIST=$1
+RECLIST=$2
+# later, to use another user's data, for example "simonk"
+# USER=simonk
+# and to access all data from all years, use this path
+# DATA=${DATA:-/Volumes/Network/courses/sp/data}
+
+shopt -s extglob
+
+for i in `cat $LABELLIST`; do
+	inargs+=( -I "$i")
+done
+
+HResults -p \
+ ${inargs[@]} \
+ -S $RECLIST \
+ ../resources/word_list
+
+
+
+# to do results for more than one speaker you need to load more than
+# one MLF and more than one set of .rec files. Do it like this:
+#
+# HResults -p \
+#  -I ${DATA}/lab/test/simonk_test.mlf \
+#  -I ${DATA}/lab/test/scottn_test.mlf \
+#  resources/word_list \
+#  rec/simonk_test*.rec \
+#  rec/scottn_test*.rec

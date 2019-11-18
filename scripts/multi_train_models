@@ -1,0 +1,32 @@
+#!/usr/bin/bash
+
+# to use your own data, this automatically sets USER to be your username
+# USER=${USER:-`whoami`}
+# and this is the path to where your data was placed by the make_mfccs script
+#DATA=${DATA:-/Volumes/Network/courses/sp/data_upload}
+
+# later, to use another user's data, for example "simonk"
+# USER=simonk
+# and to access all data from all years, use this path
+DATA=/Volumes/Network/courses/sp/data_upload
+
+# Data path specifying the scp that stores all the training names
+USERLIST=$1
+# train each initialised model
+for WORD in `cat ../resources/word_list`
+do
+
+ echo training model of $WORD
+
+ HRest -T 1 \
+	-G ESPS \
+        -m 1 \
+        -C ../resources/CONFIG \
+        -l $WORD \
+        -M ../models/hmm1 \
+        -L ${DATA}/lab/train/ \
+	-S $USERLIST \
+	../models/hmm0/$WORD
+
+done
+

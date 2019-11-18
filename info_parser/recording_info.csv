@@ -1,0 +1,483 @@
+Year,Index,Name,Gender,Microphone,Accent
+2000-1,0,nicolek,f,small,NN
+2000-1,1,chongh,m,small,NN
+2000-1,3,jamesh,m,big,UK
+2000-1,4,markm,m,small,SC
+2000-1,5,scottn,m,big,UK
+2000-1,6,simonk,m,big,UK
+2001-2,0,annika,f,big,NN Finland
+2001-2,1,beatrice,f,big,NN Germany
+2001-2,2,elisabet,f,big,NN Greece
+2001-2,3,fionac,f,small,UK
+2001-2,4,michele,f,small,NA
+2001-2,5,nicola,f,big,UK
+2001-2,6,panagiot,f,big,NN Greece
+2001-2,7,sarah,f,small,UK
+2001-2,8,sasha,f,big,AZ
+2001-2,9,alex,m,small,NN Greece?
+2001-2,10,anthonyb,m,small,UK
+2001-2,11,benjamin,m,big,NA
+2001-2,13,ccb,m,big,NA
+2001-2,14,christop,m,big,NN Belgium
+2001-2,15,colinb,m,big,UK
+2001-2,16,davidr,m,small,NA
+2001-2,17,yokong,m,big,NN Hong Kong
+2002-3,0,andra,f,headset,NA
+2002-3,1,angie,f,headset,NN Greece
+2002-3,2,beata,f,headset,NN Germany
+2002-3,3,efi,f,small,NN Greece
+2002-3,4,kateb,f,headset,UK
+2002-3,5,kelly,f,headset,NA
+2002-3,6,kit,f,headset,UK
+2002-3,7,kristina,f,big,NN
+2002-3,8,mariza,f,big,NN Greece
+2002-3,9,milena,f,headset,NN
+2002-3,10,rachel,f,headset/big,NA
+2002-3,11,stav,f,small,NN Greece
+2002-3,12,unni,f,headset,NN Denmark
+2002-3,13,vwiersma,f,big,NN Holland
+2002-3,14,yoko,f,big,NN Japan
+2002-3,15,athan,m,headset,NN Greece
+2002-3,16,davidt,m,big,UK
+2002-3,17,guy,m,small,SC
+2002-3,18,jose,m,headset,NN Spain
+2002-3,19,michaelg,m,headset,UK
+2002-3,20,michaels,m,big,UK
+2002-3,21,ptepper,m,big,NA
+2002-3,22,spengler,m,headset,NN Germany?
+2002-3,23,timm,m,headset,NA
+2002-3,24,wouter,m,big,NN Germany?
+2003-4,0,s0345201,m,headset/headset,NN Greece
+2003-4,1,s0343373,f,big/big,UK
+2003-4,2,s9901729,m,big/?,SC
+2003-4,3,s0345701,m,big/big,NA
+2003-4,4,s0345310,f,headset/big,NA
+2003-4,5,s0340933,m,big/big,NA
+2003-4,6,s0341098,f,small/small,NN Korea
+2003-4,7,s0348129,m,headset/headset,NN China
+2003-4,8,s0343949,f,headset/headset,NA
+2003-4,9,s0344328,m,big/big,NN Iceland
+2003-4,10,s0343559,m,big/big,NN Pakistan
+2003-4,11,s0345347,m,headset/big,NN Germany
+2003-4,13,s0343820,f,headset/headset,NN Germany
+2003-4,14,s0343444,m,big/big,NN Pakistan
+2003-4,15,joshua,m,headset/headset,NA
+2003-4,16,s0343879,m,headset/headset,NN Germany
+2003-4,17,s0343799,m,small/big,NN
+2003-4,18,s0348176,f,headset/big,NN Brazil
+2003-4,19,s0349395,f,headset/headset,NN Spain
+2003-4,20,s0345336,m,big/big,NN Pakistan
+2003-4,21,s0349492,m,headset/headset,NN Germany
+2003-4,23,s0339733,f,big/big,NN China
+2003-4,24,s9810638,m,big/big,UK
+2003-4,25,s0340681,f,small/small,NN Korea
+2004-5,0,s0125605,f,big,NA 
+2004-5,1,s0126339,m,headset,UK
+2004-5,2,s0127196,f,headset,UK0
+2004-5,3,s0231469,f,big,NN Germany
+2004-5,4,s0450736,m,headset,NN 
+2004-5,5,s0450918,f,small,NN Greece
+2004-5,6,s0450928,f,big,NN Germany
+2004-5,7,s0450990,f,big,NN Egypt
+2004-5,8,s0453481,m,big,NA
+2004-5,9,s0453738,f,big,NN Sweeden
+2004-5,10,s0453767,f,small,NN Germany/Poland
+2004-5,11,s0454291,m,big,SC
+2004-5,12,s0454417,f,big,NN Germany
+2004-5,13,s0454931,f,big,NA
+2004-5,14,s0454934,f,headset,UK
+2004-5,15,s0455511,m,big,NN Belgium
+2004-5,17,s0457086,m,big,UK
+2004-5,18,taal11,m,big,SC
+2005-6,0,s0235479,m,headset,UK 
+2005-6,1,s0560804,f,headset,NN Israel
+2005-6,2,s0562500,f,headset,NA
+2005-6,3,s0563087,f,headset,NN France
+2005-6,4,s0565246,f,headset,NN Germany
+2005-6,5,s0565563,m,headset,NN Sweeden
+2005-6,6,s0565839,f,headset,NN Germany
+2005-6,7,s0565890,f,headset,NN Iran
+2005-6,8,s0568074,f,headset,NN Greece
+2005-6,9,s0570475,f,headset,NN Italy
+2006-7,0,s0238734,f,headset,UK
+2006-7,1,s0451342,m,headset,UK
+2006-7,2,s0452991,f,headset,UK
+2006-7,3,s0672048,m,headset,NN S.Korea
+2006-7,4,s0674231,f,headset,NA
+2006-7,5,s0674876,f,headset,NN Austria
+2006-7,6,s0676047,f,headset,NN Germany
+2006-7,7,s0677387,m,headset,NA
+2006-7,8,s0678004,m,headset,UK
+2006-7,9,s0679432,f,headset,NN Poland
+2006-7,10,s0680940,m,headset,NN China
+2006-7,11,s0681481,m,headset,NN Greece
+2010-11,0,s0784186,f,logitech_headset,UK England
+2010-11,1,s0813426,f,sennheiser_headset,UK England
+2010-11,2,s0815365,f,sennheiser_headset,UK England
+2010-11,3,s0817052,f,sennheiser_headset,UK England
+2010-11,4,s0830024,f,logitech_headset,SC
+2010-11,5,s0834892,f,logitech_headset/sennheiser_headset,NN Romanian
+2010-11,6,s0836504,m,sennheiser_headset,NN Denmark
+2010-11,7,s1050495,f,sennheiser_headset,NA
+2010-11,8,s1052161,m,sennheiser_headset,UK England
+2010-11,9,s1052483,m,sennheiser_headset,NN Chinese
+2010-11,10,s1053080,f,logitech_headset,NN Germany
+2010-11,11,s1054017,m,sennheiser_headset,NN Netherlands
+2010-11,12,s1060613,f,logitech_headset,NN Germany
+2010-11,13,s9061219,m,sennheiser_headset,SC
+2011-12,0,s0680570,m,logitech_headset,UK Northern Ireland
+2011-12,1,s0806577,m,logitech_headset,UK Southern England
+2011-12,2,s0823571,f,logitech_headset,SC
+2011-12,3,s0824968,m,logitech_headset,SC
+2011-12,4,s0830862,f,logitech_headset,UK England
+2011-12,5,s0832212,m,logitech_headset,UK England
+2011-12,6,s0833088,m,logitech_headset,??
+2011-12,7,s0901872,f,logitech_headset,UK Northern England
+2011-12,8,s0927722,m,logitech_headset,UK Northern England
+2011-12,9,s0940658,m,logitech_headset,SC
+2011-12,10,s1053697,f,logitech_headset,NN Polish
+2011-12,11,s1057505,f,logitech_headset,NN Germany
+2011-12,12,s1100218,m,logitech_headset,NA
+2011-12,13,s1125835,m,logitech_headset,NN Greece
+2011-12,14,s1128289,m,logitech_headset,NA
+2011-12,15,s1135029,m,logitech_headset,NN Spain
+2011-12,16,s1151467,m,logitech_headset,UK England
+2011-12,17,s1157551,m,logitech_headset,NN China
+2011-12,18,s1158260,f,logitech_headset,NN Denmark
+2011-12,19,s1159094,f,logitech_headset,NA
+2012-13,0,s0680304,f,logitech_headset,UK England
+2012-13,1,s0906559,m,logitech_headset,UK England
+2012-13,2,s0907414,m,logitech_headset,NN ?
+2012-13,3,s0938610,f,logitech_headset,UK England
+2012-13,4,s0949139,m,laptop,NN Greek (macbook)
+2012-13,5,s1021894,m,logitech_headset,SC
+2012-13,6,s1200359,m,logitech_headset,UK Northern England
+2012-13,7,s1212703,f,logitech_headset,NN China
+2012-13,8,s1219694,f,logitech_headset,NN China
+2012-13,9,s1242643,f,logitech_headset,NN China
+2012-13,10,s1244635,f,logitech_headset,AZ Australia
+2012-13,11,s1250520,m,logitech_headset,NN Portugal
+2012-13,12,s1255719,f,logitech_headset,NN Greece
+2012-13,13,s1261038,m,logitech_headset,NN China
+2012-13,14,s1261066,f,logitech_headset,NN France
+2012-13,15,s1262348,f,logitech_headset,NN Spain
+2012-13,16,s1262980,f,logitech_headset,IE Ireland
+2012-13,17,s1266300,f,logitech_headset,NN Netherlands
+2012-13,18,s1266322,f,logitech_headset,NN German
+2012-13,19,s1266927,f,logitech_headset,NN France
+2013-14,0,s1312082,Male,logitech_headset Praat Lab,NN
+2013-14,1,s1355318,Female,logitech_headset Audacity Lab,NN
+2013-14,2,s1367766,Female,logitech_headset Praat Lab,NN
+2013-14,3,s1038946,Male,Apple_EarPods Audacity Lab,NN
+2013-14,4,s0950147,Female,iMac_inbuilt Audacity Lab,UK
+2013-14,5,s1336117,Female,iMac_inbuilt Audacity Lab,NN
+2013-14,6,s1036740,Female,logitech_headset Praat Lab,NN
+2013-14,7,s1114083,Female,Acer_v5-571_inbuilt Audacity Home,NA
+2013-14,8,s0927462,Female,iMac_inbuilt Audacity Lab,UK
+2013-14,9,s1006577,Female,Dell_1555_inbuilt Praat Home,UK
+2013-14,10,s1148578,Female,logitech_headset Praat Lab,NN
+2013-14,11,s0946728,Female,iMac_builtin ?? Home,NN
+2013-14,12,s1367454,Female,logitech_headset Audacity Lab,NN
+2013-14,13,s1126144,Male,Behringer_B1 Audacity Home,SC
+2013-14,14,s0934142,Male,Gioteck_EX-02S Audacity Home,UK
+2014-15,0,s1023125,f,logitech_headset,SC
+2014-15,1,s1025224,m,logitech_headset,SC Edinburgh
+2014-15,2,s1039137,m,logitech_headset,NN
+2014-15,3,s1043206,m,logitech_headset,NN Norway
+2014-15,4,s1058139,m,logitech_headset,NA
+2014-15,5,s1106812,m,logitech_headset,NN Russia
+2014-15,6,s1109026,f,logitech_headset,UK
+2014-15,7,s1112290,m,logitech_headset,UK Northern England
+2014-15,8,s1124728,m,laptop,UK England (Lenovo)
+2014-15,9,s1142034,m,logitech_headset,NN Sweden
+2014-15,10,s1153100,m,logitech_headset,NN Kazakhstan
+2014-15,11,s1202144,m,logitech_headset,NN Sweden/England
+2014-15,12,s1204877,f,laptop,NN Romania (macbook)
+2014-15,13,s1210107,m,logitech_headset,NN Dutch-Hungarian
+2014-15,14,s1210764,f,logitech_headset,UK Southern England
+2014-15,15,s1211535,m,logitech_headset,UK Northern England
+2014-15,16,s1215573,m,logitech_headset,NN Italy
+2014-15,17,s1218143,f,logitech_headset,UK Tyneside
+2014-15,18,s1223356,m,logitech_headset,SC
+2014-15,19,s1224425,m,logitech_headset,SC
+2014-15,20,s1226443,m,logitech_headset,NN China
+2014-15,21,s1229492,m,logitech_headset,SC
+2014-15,22,s1232732,m,logitech_headset,SC Edinburgh
+2014-15,23,s1236755,f,logitech_headset,NA
+2014-15,24,s1242775,m,logitech_noiseless_mic,NN Netherlands
+2014-15,25,s1244474,m,logitech_headset,NN Hungary
+2014-15,26,s1245523,m,logitech_headset,NN Iran
+2014-15,27,s1247148,f,rode_k2,NN China
+2014-15,28,s1265676,m,logitech_headset,NN India
+2014-15,29,s1333293,m,logitech_headset,NN Italy
+2014-15,30,s1416663,f,logitech_headset,NN India
+2014-15,31,s1420849,m,logitech_headset,NA
+2014-15,32,s1428244,f,logitech_headset,NN China
+2014-15,33,s1439222,f,CAD_U37_USB,NN Denmark
+2014-15,34,s1440080,m,logitech_headset,NN Mexico
+2014-15,35,s1444169,f,logitech_headset,NA USA
+2014-15,36,s1449834,f,logitech_headset,NN Greece
+2014-15,37,s1451388,f,logitech_headset,UK Cheshire
+2014-15,38,s1458392,f,logitech_headset,NN Germany
+2014-15,39,s1460138,m,laptop,NN India (macbook)
+2014-15,40,s1462881,f,apple_headphones,NA
+2014-15,41,s1462938,m,logitech_headset,UK
+2014-15,42,s1464908,f,logitech_headset,NN Belgium
+2014-15,43,s1466633,m,logitech_headset,NN Japan
+2014-15,44,s1466724,f,logitech_headset,NN Italy
+2014-15,45,s1466878,f,logitech_headset,NN China
+2014-15,46,s1467926,m,logitech_headset,NA USA
+2014-15,47,s1468596,f,logitech_headset,NN France
+2014-15,48,s1469810,f,logitech_headset,NA
+2014-15,49,s1473254,f,logitech_headset,NA American-Trinidadian 
+2014-15,50,s1474926,m,logitech_headset,NN Thai
+2015-16,0,s1562085,m,sony_pulse_headset,NN Ecuador
+2015-16,1,s0838587,m,logitech_headset,NN Poland
+2015-16,2,s1567647,m,logitech_headset,NA USA
+2015-16,3,s1574163,m,logitech_headset,UK Southern England
+2015-16,4,s1566512,f,logitech_headset,NN Italy
+2015-16,5,s1572044,f,logitech_headset,NN Spain (Catalonia)
+2015-16,6,s1520582,m,logitech_headset,NN Germany
+2015-16,7,s1562078,f,logitech_headset,NN Greece
+2015-16,8,s1565865,f,logitech_headset,NN China
+2015-16,9,s1533593,m,logitech_headset,NN Italy
+2015-16,10,s1471823,f,logitech_headset,NN Saudi Arabia
+2015-16,11,s1423284,f,logitech_headset,NN China
+2015-16,12,s1556756,m,logitech_headset,NN Greece
+2015-16,13,s1212806,f,apple_headphones,NN mixed
+2015-16,14,s1523545,m,logitech_headset,UK Southern England
+2015-16,15,s0907677,f,logitech_headset,NN Poland
+2015-16,16,s1105102,f,logitech_headset,UK Southern England
+2015-16,17,s1205542,m,logitech_headset,UK Southern England
+2015-16,18,s1474784,f,logitech_headset,NN Germany
+2015-16,19,s1564606,f,logitech_headset,NA
+2015-16,20,s1119520,m,logitech_headset,NN Lithuania
+2015-16,21,s1564218,f,microsoft_headset,NA USA
+2015-16,22,s1572403,f,logitech_headset,NN Italy
+2015-16,23,s1520337,f,logitech_headset,NN Chile
+2015-16,24,s1574060,m,logitech_headset,NN Poland
+2015-16,25,s1523985,f,microsoft_headset,NA USA
+2015-16,26,s1551548,f,logitech_headset,NN China
+2015-16,27,s1309783,f,logitech_headset,NN Thailand
+2015-16,28,s1571333,m,logitech_headset,NN France
+2015-16,29,s1531259,m,logitech_headset,NN China
+2015-16,30,s1204698,f,logitech_headset,NN Italy
+2015-16,31,s1344727,m,realtek_high_definition_audio,NN Italy
+2015-16,32,s1115924,f,logitech_headset,UK Northern England
+2015-16,33,s1473791,m,logitech_headset,NN Spain
+2015-16,34,s1522072,f,logitech_headset,NN Russia
+2015-16,35,s1566641,m,logitech_headset,NA USA
+2015-16,36,s1345679,m,logitech_headset,NN Hungary
+2015-16,37,s1206798,m,logitech_headset,NN Germany
+2015-16,38,s1245738,m,logitech_headset,NN Slovakia
+2015-16,39,s1348525,m,logitech_headset,SC
+2015-16,40,s1247563,m,logitech_headset,NN Belgium
+2015-16,41,s1345717,f,logitech_headset,NN Italy
+2015-16,42,s1248784,f,logitech_headset,NN Austria
+2015-16,43,s1241360,f,logitech_headset,NN India
+2015-16,44,s1219096,m,apple_headphones,SC
+2015-16,45,s1364645,m,logitech_headset,NA USA
+2015-16,46,s1332702,f,logitech_headset,SC
+2015-16,47,s1309426,m,logitech_headset,NA USA
+2015-16,48,s1126761,m,logitech_headset,SC
+2015-16,49,s1354741,m,logitech_headset,NN Czech Republic
+2015-16,50,s1213677,m,apple_headphones,UK Southern England
+2016-17,0,s1680167,m,laptop,NN Germany (clevo-w840su)
+2016-17,1,s1680221,m,laptop,NN Italy (ThinkpadT420)
+2016-17,2,s1676942,m,laptop,NN Germany (macbook)
+2016-17,3,s1326224,m,laptop,SC (hp_envy)
+2016-17,4,s1616820,f,laptop,NA California (macbook)
+2016-17,5,s1604824,f,laptop,NA USA (macbook)
+2016-17,6,s1668016,f,laptop,NN France (macbook)
+2016-17,7,s1451606,f,laptop,NA (macbook)
+2016-17,8,s1674808,f,laptop,NA (macbook)
+2016-17,9,s1684093,m,laptop,NN Sweden (macbook)
+2016-17,10,s1640648,f,laptop,NA California (macbook)
+2016-17,11,s1676751,f,laptop,NN Chinese (macbook)
+2016-17,12,s1624468,m,laptop,NN China (macbook)
+2016-17,13,s1614280,f,laptop,NN China (macbook)
+2016-17,14,s1522469,?,laptop,NN China (macbook)
+2016-17,15,s1471720,m,laptop,NN Norway (macbook)
+2016-17,16,s1473099,f,laptop,NA USA (macbook)
+2016-17,17,s1679421,m,laptop,NN Netherlands (macbook)
+2016-17,18,s1631008,f,laptop,NN China (HPdv3)
+2016-17,19,s1312747,m,iMac,NA American
+2016-17,20,s1648755,m,laptop,NN China (dell)
+2016-17,21,s1671540,m,laptop,NN Chinese (dell)
+2016-17,22,s1469488,m,laptop,NN China (macbook)
+2016-17,23,s1671123,m,laptop,NN China (macbook)
+2016-17,24,s1649890,m,laptop,UK Southern (macbook)
+2016-17,25,s1674500,f,iMac,NN Austria/Scotland
+2016-17,26,s1670238,m,laptop,NN Germany (Lenovo100S)
+2016-17,27,s1443906,m,laptop,GA (macbook)
+2016-17,28,s1217013,m,LogitechA-0060A,UK Southern England
+2016-17,29,s1569669,f,laptop,NN Greece (macbook)
+2016-17,30,s1685899,m,laptop,NA (macbook)
+2016-17,31,s1525891,m,laptop,NA Canada (macbook)
+2016-17,32,s1407470,m,laptop?,SC Edinburgh
+2016-17,33,s1347498,f,laptop,NN Lithuania (macbook)
+2016-17,34,s1671513,m,laptop,NN China (E325)
+2016-17,35,s1659887,f,laptop,NN China (macbook)
+2016-17,36,s1617188,m,iMac,NN China
+2016-17,37,s1309096,m,iMac,NN Romania
+2016-17,38,s1324313,f,iMac,SC
+2016-17,39,s1208647,m,laptop,IE Ireland (acer)
+2016-17,40,s1351989,m,iMac,NN India
+2016-17,41,s1440799,f,laptop,NN Bulgaria (Dell)
+2016-17,42,s1451772,m,laptop,NN Lithuania (asusn56vb)
+2016-17,43,s1537176,m,laptop,NN China (dell-1545)
+2016-17,44,s1306782,m,laptop,NN Denmark (macbook)
+2016-17,45,s1454439,f,laptop,NN Germany (macbook)
+2016-17,46,s1343872,m,laptop,SC (Dell Inspiron)
+2016-17,47,s1233656,f,laptop,NN Bulgaria (ASUS)
+2017-18,0,s1777805,f,iMac,NN Norway
+2017-18,1,s1702456,f,iMac,NN Russia
+2017-18,2,s1700949,f,iMac,UK Northern England
+2017-18,3,s1520780,f,iMac,UK Northern England
+2017-18,4,s1780755,f,iMac,NN Russia
+2017-18,5,s1775230,f,iMac,NN Canada Quebec
+2017-18,6,s1408393,f,iMac,UK Southern England
+2017-18,7,s1719048,f,iMac,NN China
+2017-18,8,s1773886,m,iMac,NA USA
+2017-18,9,s1792565,m,iMac,UK Southern England
+2017-18,10,s1322332,m,iMac,UK Southern England
+2017-18,11,s1747145,m,iMac,NN Taiwan
+2017-18,12,s1785140,m,iMac,UK Northern England
+2017-18,13,s1619123,f,iMac,NN China
+2017-18,14,s1763562,f,iMac,NA USA
+2017-18,15,s1225708,f,iMac,SC
+2017-18,16,s1777015,m,iMac,NN China
+2017-18,17,s1731620,f,iMac,UK Northern England
+2017-18,18,s1243195,m,iMac,SC
+2017-18,19,s1776575,f,iMac,NN HongKong
+2017-18,20,s1771379,f,iMac,IE Ireland
+2017-18,21,s1718204,m,iMac,NN China
+2017-18,22,s1788803,m,iMac,NN Denmark
+2017-18,23,s1240595,m,iMac,NA USA
+2017-18,24,s1675924,f,iMac,NN Ecuador
+2017-18,25,s1770642,f,iMac,NN China
+2017-18,26,s1783009,m,iMac,UK Southern England
+2017-18,27,s1739009,m,iMac,NN Germany
+2017-18,28,s1444618,f,iMac,NN Germany
+2017-18,29,s1533260,f,iMac,NN Cyprus
+2017-18,30,s1546267,m,laptop,NN China (MSIGS60)
+2017-18,31,s1785247,m,iMac,SG Singapore
+2017-18,32,s1357269,f,iMac,NA Canada
+2017-18,33,s1789553,m,iMac,NN Netherlands
+2017-18,34,s1672756,m,iMac,UK Southern England
+2017-18,35,s1531466,f,iMac,UK South Yorkshire
+2017-18,36,s1789699,f,iMac,NN Spain (Catalonia)
+2017-18,37,s1676749,m,iMac,UK Northern Ireland
+2017-18,38,s1720613,g,iMac,NN China
+2017-18,39,s1779732,f,iMac,NN Germany
+2017-18,40,s1727834,g,iMac,NN France
+2017-18,41,s1532662,m,iMac,UK
+2017-18,42,s1775678,f,iMac,UK Southern England
+2017-18,43,s1757126,m,laptop,NN Lebanon MacBookPro
+2017-18,44,s1718768,f,iMac,NN China
+2017-18,45,s1794269,f,iMac,NN Greece
+2017-18,46,s1524812,f,iMac,IE Ireland
+2017-18,47,s1780852,f,iMac,NN Netherlands
+2017-18,48,s1408442,f,iMac,UK Southern England
+2017-18,49,s1789041,f,iMac,NN Germany
+2017-18,50,s1775528,f,iMac,IE Ireland
+2017-18,51,s1515343,f,iMac,UK Welsh
+2017-18,52,s1759422,m,laptop,NA Canada MacBookPro
+2017-18,53,s1743971,g,iMac,NN France
+2017-18,54,s1313407,f,iMac,NA USA
+2017-18,55,s1305077,f,iMac,UK Southern English
+2017-18,56,s1731574,f,iMac,WSAfE South Africa
+2017-18,57,s1723289,f,iMac,NA USA
+2017-18,58,s1778033,f,iMac,NA USA
+2017-18,59,s1513071,m,iMac,NN Cyprus
+2018-19,0,s1777759,m,iMac,NN China
+2018-19,1,s1881336,f,iMac,UK Southern England
+2018-19,2,s1834065,m,iMac,NN HongKong
+2018-19,3,s1873815,f,iMac,NA USA
+2018-19,4,s1870525,m,iMac,NN Chile
+2018-19,5,s1878482,f,iMac,NN Italy
+2018-19,6,s1888641,m,iMac,UK Southern England
+2018-19,7,s1876797,f,iMac,NN Taiwan
+2018-19,8,s1834488,f,iMac,NN China
+2018-19,9,s1820672,m,iMac,NN China
+2018-19,10,s1821905,f,iMac,NN China
+2018-19,11,s1689291,f,iMac,NA USA
+2018-19,12,s0830510,m,iMac,UK Southern England
+2018-19,13,s1527110,m,iMac,UK South-West England
+2018-19,14,s1878665,m,iMac,NN Iceland
+2018-19,15,s1773321,f,iMac,NN Greece
+2018-19,16,s1689921,f,iMac,NN Moldova
+2018-19,17,s1829150,f,iMac,NN China
+2018-19,18,s1513472,m,iMac,NN Slovakia
+2018-19,19,s1853296,f,iMac,NA USA
+2018-19,20,s1444568,f,iMac,NA USA
+2018-19,21,s1826182,f,iMac,NN China
+2018-19,22,s1879088,m,iMac,NN Chile
+2018-19,23,s1630726,m,iMac,NN China
+2018-19,24,s1834482,f,iMac,NA USA
+2018-19,25,s1818420,f,iMac,NN China
+2018-19,26,s1682062,m,iMac,NN China
+2018-19,27,s1877776,f,iMac,NN Korea
+2018-19,28,s1856289,f,iMac,NA USA
+2018-19,29,s1507425,f,iMac,NN Bulgaria
+2018-19,30,s1879523,f,iMac,UK Northern England
+2018-19,31,s1832577,m,iMac,NA USA
+2018-19,32,s1509520,f,iMac,NA USA
+2018-19,33,s1885873,m,iMac,UK Southern England
+2018-19,34,s1451567,m,iMac,NN Singapore
+2018-19,35,s1406597,m,iMac,UK Scotland
+2018-19,36,s1681275,f,iMac,NA
+2018-19,37,s1879338,f,iMac,NN China
+2018-19,38,s1819956,f,iMac,NN China
+2018-19,39,s1613936,m,iMac,NN China
+2018-19,40,s1558410,f,iMac,NN Singapore
+2018-19,41,s1604424,m,iMac,NN Hong_Kong
+2018-19,42,s1404518,m,iMac,UK RP
+2018-19,43,s1608591,m,iMac,UK
+2018-19,44,s1531206,m,iMac,UK England
+2018-19,45,s1893594,m,iMac,NA USA
+2018-19,46,s1605551,f,iMac,NN Sweden
+2018-19,47,s1888630,f,iMac,NN Greece
+2018-19,48,s1888955,f,iMac,NN Germany
+2018-19,49,s1457828,f,iMac,NA Canada
+2018-19,50,s1879517,f,iMac,NN Germany
+2018-19,51,s1630045,f,iMac,UK Scotland
+2018-19,52,s1512295,m,iMac,NN Finland
+2018-19,53,s1452790,m,iMac,NN Netherlands
+2018-19,54,s1470269,m,iMac,NN Bulgaria
+2018-19,55,s1647760,f,iMac,NN Malaysia
+2019-20,0,s1616573,f,SamsungS7,UK Northern Ireland
+2019-20,1,s1681906,f,apple_iphone_8,NN Chinese
+2019-20,2,s1995221,m,google_pixel_2_xl,AZ Australia
+2019-20,3,s1621503,m,oneplus_6,NN Portugal
+2019-20,4,s2002376,m,apple_iphone_xr,NN China
+2019-20,5,s1740779,m,apple_iphone_7,NA America
+2019-20,6,s1508979,f,apple_iphone_5se,UK Southern England
+2019-20,7,s1303513,f,apple_iphone_SE,UK Southern England
+2019-20,8,s1940451,m,iPhone_8,NN Netherlands
+2019-20,9,s1941395,m,google_pixel_2xl,NA USA
+2019-20,10,s1916940,F,apple_iphone_7_plus,NN China
+2019-20,11,s1891340,m,Macbook,NN China
+2019-20,12,s0343009,f,Samsung_Galaxy_S10,NN Romania
+2019-20,13,s1511198,f,apple_iphone_x,NA USA
+2019-20,14,s1990816,f,samsung_s8,NA
+2019-20,15,s1651681,f,apple_iphone_5s,UK Southern England
+2019-20,16,s1784888,m,MacBook_Pro,NN China
+2019-20,17,s1826151,f,huawei_p30,NN China
+2019-20,18,s1878472,f,HUAWEI_nova_2,NN Germany
+2019-20,19,s1933640,m,apple_iphone_8,NN China
+2019-20,20,s1988523,f,samsung_galaxy_s8,NA USA
+2019-20,21,s2000148,m,apple_iphone_6s,NN Denmark
+2019-20,22,s1620398,m,oneNote_5T,UK Northern England
+2019-20,23,s1983587,f,apple_iphone_se,NA Canada
+2019-20,24,s1994964,m,oneplus_5,NA USA
+2019-20,25,s1904181,m,apple_iphone_x,NN China
+2019-20,26,s1935621,f,apple_iphone_xr,NN China
+2019-20,27,s1705411,m,motorola_moto_g5,UK Southern England
+2019-20,28,s1611517,m,samsung_galaxy_s10e,NA Czech Republic
+2019-20,29,s1717837,f,google_pixel_2,UK Southern England
+2019-20,30,s1939017,f,apple_iphone_8,NN China
+2019-20,31,s1960659,m,ASUS_Z01RD,NN Italy
+2019-20,32,s1764494,m,Samsung_Galaxy_J7,NN Austria
+2019-20,33,s1735938,m,apple_iphone_X,NN China
+2019-20,34,s1983839,f,Samsung_Galaxy_S6,NN Germany

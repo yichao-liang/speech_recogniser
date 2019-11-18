@@ -1,0 +1,143 @@
+#!/usr/bin/bash
+
+# this automatically sets USER to be your username - DO NOT CHANGE THIS LINE
+USER=${USER:-`whoami`}
+
+# you MUST CHANGE the following line to give the correct details for your own data
+#  replace the g with either m (for male voices) or f (for female voices)
+#  (note: we treat gender as binary, as is standard in the field; if you don't identify as either, please just pick one)
+#  and adjust the other values as necessary - refer to info.txt for examples
+INFO=${USER}" m apple_iphone_X NN China"
+
+# and after you have done the above, comment out or delete this line
+# echo "You have forgotten to edit the make_mfccs script to specify your gender and accent"; exit 1
+
+# ===================================
+
+# you should not need to change anything below here, unless you attempt more advanced experiments
+
+# if you do advanced experiments in which you use a different parameterisation,
+# then you should always run in local mode
+
+shopt -s extglob
+
+
+MODE=unknown
+
+# parse command line arguments
+# the only available options are
+# "-l" for running in local mode
+# "-u" for running in upload mode
+
+while getopts ":lu" opt; do
+  case $opt in
+    l)
+      MODE=local
+      DATA=./data_local
+      ;;
+    u)
+      MODE=upload
+	  DATA=/Volumes/Network/courses/sp/data_upload
+      ;;
+    \?)
+      echo "Invalid option: -$OPTARG"
+      ;;
+  esac
+done
+
+if [ "$MODE" == "local" ]
+then
+    echo "Running in local mode using "${DATA}
+	for TYPE in wav mfcc lab
+	do
+		for PARTITION in train test
+		do
+			mkdir -p ${DATA}/${TYPE}/${PARTITION}
+		done
+	done
+
+elif [ "$MODE" == "upload" ]
+then
+    echo "Running in upload mode to "${DATA}
+
+else
+	echo "Mode not specified. You must specify one of: -l or -u"
+	exit 1
+fi
+
+echo "Appending your information to "${DATA}/info.txt
+echo $INFO >> ${DATA}/info.txt
+
+# 1) copy waveforms into common file space
+# 2) copy label files into common file space
+# 3) make mfcc files from waveforms
+
+# first, process the training data, which must be called something like "simonk_train.wav"
+F=wav/${USER}_train.wav
+if test -f $F
+then
+	echo Converting $F "to correct waveform format and saving in" ${DATA}/wav/train/`basename $F`
+	ch_wave -F 16000 -otype nist -c 0 -o ${DATA}/wav/train/`basename $F` $F
+
+	echo "Making MFCCs for" ${DATA}/wav/train/`basename $F`
+	HCopy -T 1 -C resources/CONFIG_for_coding \
+	       ${DATA}/wav/train/`basename $F`\
+	       ${DATA}/mfcc/train/`basename $F .wav`.mfcc
+
+else
+	echo Cannot find $F
+	exit
+fi
+
+
+# copy the train and test label files
+F=lab/${USER}_train.lab
+if test -f $F
+then
+	cp $F ${DATA}/lab/train/
+else
+	echo "Cannot find your training labels, which should be in" $F
+	exit
+fi
+
+F=lab/${USER}_test.mlf
+if test -f $F
+then
+	cp $F ${DATA}/lab/test/
+else
+	echo "Cannot find your test labels, which should be in" $F
+	exit
+fi
+
+
+# first, process the training data, which must be called something like "simonk_test01.wav"
+for F in `ls wav/${USER}_test?(_)??.wav`
+do
+
+	if test -f $F
+	then
+
+		echo Converting $F "to correct waveform format and saving in" ${DATA}/wav/test/`basename $F`
+		ch_wave -F 16000 -otype nist -c 0 -o ${DATA}/wav/test/`basename $F` $F
+
+		echo Making MFCCs for $F
+		HCopy -T 1 -C resources/CONFIG_for_coding \
+       		${DATA}/wav/test/`basename $F`\
+       		${DATA}/mfcc/test/`basename $F .wav`.mfcc
+	else
+		echo "Cannot find the test waveform" $F
+		exit
+	fi
+done
+
+# now make them readable by everybody
+echo "Changing file permissions"
+chmod u=rw,go=r ${DATA}/*/*/${USER}_*
+
+
+if [ "$MODE" == "local" ]
+then
+	echo "To use the local data, you will need to temporarily change all your other scripts to use"
+	echo "DATA="${DATA}
+fi
+

@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+
+# Path of List of test to do
+LISTRECOGNISER=../list/list_recogniser.scp
+
+# Path of List of master labels
+LISTRESULTSLABEL=../list/list_results_label.scp
+
+# Path of List of recognised multi_results
+LISTRESULTSREC=../list/list_results_rec.scp
+
+./multi_recognise_test_data $LISTRECOGNISER
+./multi_results $LISTRESULTSLABEL $LISTRESULTSREC

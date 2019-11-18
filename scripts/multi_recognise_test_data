@@ -1,0 +1,30 @@
+#!/usr/bin/bash
+
+# to use your own data, this automatically sets USER to be your username
+#USER=${USER:-`whoami`}
+TESTLIST=$1
+# and this is the path to where your data was placed by the make_mfccs script
+#DATA=${DATA:-/Volumes/Network/courses/sp/data_upload}
+
+# later, to use another user's data, for example "simonk"
+# USER=simonk
+# and to access all data from all years, use this path
+
+shopt -s extglob
+
+for F in `cat $TESTLIST`
+do
+ FF=`basename $F .mfcc`
+
+ echo
+ echo Doing $F
+
+ HVite -T 1 -C ../resources/CONFIG \
+	-d ../models/hmm1 \
+	-l ../rec \
+	-w ../resources/grammar_as_network \
+	../resources/dictionary \
+	../resources/word_list \
+	$F
+
+done

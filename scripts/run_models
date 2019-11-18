@@ -1,0 +1,29 @@
+USER=${'whoami'}
+DATA="/Volumes/Network/courses/sp/data_upload"
+
+# Loop though arguments and process them
+for arg in "$@"
+do
+	case $arg in 
+		-u=*|--user=*)
+		USER="${arg#*=}"
+		shift # Remove --user from processing
+		;;
+		-d=*|--dir=*)
+		DATA="${arg#*=}"
+		shift # Remove --dir from processing
+		;;
+		*)
+		OTHER_ARGUMENTS+=("$1")
+		shift # Remove generic argument from processing
+		;;
+	esac
+done
+
+echo "# Running on user: $USER"
+echo "# Running data path: $DATA"
+
+./initialise_models $USER $DATA
+./train_models $USER $DATA
+./recognise_test_data $USER $DATA
+./results $USER $DATA

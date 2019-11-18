@@ -1,0 +1,40 @@
+#!/usr/bin/bash
+
+# to use your own data, this automatically sets USER to be your username
+# USER=${USER:-`whoami`}
+
+# and this is the path to where your data was placed by the make_mfccs script
+DATA=/Volumes/Network/courses/sp/data_upload
+
+# The data path for the file that specifing all the users list
+USERLIST=$1
+
+# later, to use another user's data, for example "simonk"
+# USER=simonk
+# and to access all data from all years, use this path
+
+
+# how many states is determined by the choice of prototype model
+# remember - two of these states are dummy, so the 3state model only 
+# has a single emitting state
+
+PROTO=5state
+set -x
+
+# initialise each model
+for WORD in `cat ../resources/word_list`
+do
+
+ echo Initialising model of $WORD
+
+ HInit -T 1 \
+	-G ESPS \
+        -m 1 \
+        -C ../resources/CONFIG \
+        -l $WORD \
+        -M ../models/hmm0 \
+        -o $WORD \
+        -L ${DATA}/lab/train \
+	-S $USERLIST \
+	../models/proto/$PROTO
+done

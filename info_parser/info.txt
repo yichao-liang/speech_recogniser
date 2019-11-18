@@ -1,0 +1,639 @@
+Information about the data. Only isolated English digits data are listed here.
+
+
+Microphone types:
+
+two types where the micophone could be at a variable distance from the speaker:
+"big"    : stand-mounted Sennheiser mikes (good quality)
+"small"  : basic Sun lapel type mic (low quality)
+
+plus various types of headset microphone:
+"headset" (medium quality)
+"logitech_headset"
+"sennheiser_headset"
+
+where two microphone names appear (e.g. "headset/big") they are for
+train/test data respectively
+
+Accent types:
+SC : native Scottish English speaker
+UK : native other British English speaker
+AZ : native Australian/NZ speaker
+NA : native North American English speaker
+NN : non-native
+
+
+=================================================================
+
+There are known to be some problems with files from the following users, so you should probably exclude these from any experiments
+
+calum
+jamesc
+behzad
+s0343804
+s0346429
+s0451815
+s0455730
+
+=================================================================
+
+Year: 2000-1
+
+Name	   Gender	Microphone	Accent
+----	   ------	----------	------
+
+nicolek	    f		small		NN
+chongh	    m		small		NN
+jamesc	    m		small		AZ
+jamesh	    m		big		UK
+markm	    m		small		SC
+scottn	    m		big		UK
+simonk	    m		big		UK
+
+
+=================================================================
+
+Year: 2001-2
+
+Name	  Gender	Microphone	Accent
+----	  ------	----------	------
+annika		f	big		NN Finland
+beatrice	f	big		NN Germany
+elisabet	f	big		NN Greece
+fionac		f	small		UK
+michele		f	small		NA
+nicola		f	big		UK
+panagiot	f	big		NN Greece
+sarah		f	small		UK
+sasha		f	big		AZ
+
+alex		m	small		NN Greece?
+anthonyb	m	small		UK
+benjamin	m	big		NA
+calum		m	small		SC
+ccb		    m	big		NA
+christop	m	big		NN Belgium
+colinb		m	big		UK
+davidr		m	small		NA
+yokong		m	big		NN Hong Kong
+
+
+=================================================================
+
+Year: 2002-3
+
+now three microphone types: big, small, headset
+
+where two microphone names appear they are for train/test data
+respectively
+
+Name	  Gender	Microphone	Accent
+----	  ------	----------	------
+andra		f	headset		NA
+angie		f	headset		NN Greece
+beata		f	headset		NN Germany
+efi		    f	small		NN Greece
+kateb		f	headset		UK
+kelly		f	headset		NA
+kit		    f	headset		UK
+kristina	f	big		NN
+mariza		f	big		NN Greece
+milena		f	headset		NN
+rachel		f	headset/big	NA
+stav		f	small		NN Greece
+unni		f	headset		NN Denmark
+vwiersma	f	big		NN Holland
+yoko		f	big		NN Japan
+athan		m	headset		NN Greece
+behzad		m	big		NN << DO NOT USE (problems with test labels)
+davidt		m	big		UK
+guy		    m	small		SC
+jose		m	headset		NN Spain
+michaelg	m	headset		UK
+michaels	m	big		UK
+ptepper		m	big		NA
+spengler	m	headset		NN Germany?
+timm		m	headset		NA
+wouter		m	big		NN Germany?
+
+=================================================================
+
+Year: 2003-4
+
+Name	  Gender	Microphone	Accent
+----	  ------	----------	------
+s0345201  m		headset/headset	NN Greece
+s0343373  f		big/big		UK
+s9901729  m		big/?		SC
+s0345701  m		big/big		NA
+s0345310  f		headset/big	NA
+s0340933  m		big/big		NA
+s0341098  f		small/small	NN Korea
+s0348129  m		headset/headset	NN China
+s0343949  f		headset/headset	NA
+s0344328  m		big/big		NN Iceland
+s0343559  m		big/big		NN Pakistan
+s0345347  m		headset/big	NN Germany
+s0346429  f		small/small	NN Germany
+s0343820  f		headset/headset	NN Germany
+s0343444  m		big/big		NN Pakistan
+joshua	  m		headset/headset	NA
+s0343879  m		headset/headset	NN Germany
+s0343799  m		small/big	NN
+s0348176  f		headset/big	NN Brazil
+s0349395  f		headset/headset	NN Spain
+s0345336  m		big/big		NN Pakistan
+s0349492  m		headset/headset	NN Germany
+s0343804  m		small/small	NN
+s0339733  f		big/big		NN China
+s9810638  m		big/big		UK
+s0340681  f		small/small	NN Korea
+
+Year: 2004-5
+
+Name	  Gender	Microphone	Accent
+----	  ------	----------	------
+s0125605  f		big		NA 
+s0126339  m		headset		UK
+s0127196  f		headset		UK0
+s0231469  f		big		NN Germany
+s0450736  m		headset		NN 
+s0450918  f		small		NN Greece
+s0450928  f		big		NN Germany
+s0450990  f		big		NN Egypt
+s0453481  m		big		NA
+s0453738  f		big		NN Sweeden
+s0453767  f		small		NN Germany/Poland
+s0454291  m		big		SC
+s0454417  f		big		NN Germany
+s0454931  f		big		NA
+s0454934  f		headset		UK
+s0455511  m		big		NN Belgium
+s0455730  m		big		NN China
+s0457086  m		big		UK
+taal11	  m		big		SC
+
+
+Year: 2005-6
+
+Name	  Gender	Microphone	Accent
+----	  ------	----------	------
+s0235479    m             headset         UK 
+s0560804    f             headset         NN Israel
+s0562500    f             headset         NA
+s0563087    f             headset         NN France
+s0565246    f             headset         NN Germany
+s0565563    m             headset         NN Sweeden
+s0565839    f             headset         NN Germany
+s0565890    f             headset         NN Iran
+s0568074    f             headset         NN Greece
+s0570475    f             headset         NN Italy
+
+Year: 2006-7
+
+Name	  Gender	Microphone	Accent
+----	  ------	----------	------
+s0126163    m            headset         NN Italy - do not use (said 'oh' instead of 'zero')
+s0238734    f            headset         UK
+s0451342    m            headset         UK
+s0452991    f            headset         UK
+s0672048    m            headset         NN S.Korea
+s0674231    f            headset         NA
+s0674876    f            headset         NN Austria
+s0676047    f            headset         NN Germany
+s0676515    m            headset         UK - do not use (said 'oh' instead of 'zero')
+s0677387    m            headset         NA
+s0678004    m            headset         UK
+s0679432    f            headset         NN Poland
+s0680940    m            headset         NN China
+s0681481    m            headset         NN Greece
+
+
+
+Information is missing from 2007/8-2009/10
+
+
+Year: 2010-11
+
+Name	  Gender	Microphone	Accent
+----	  ------	----------	------
+s0784186    f      logitech_headset      UK England
+s0813426    f      sennheiser_headset    UK England
+s0815365    f      sennheiser_headset    UK England
+s0817052    f      sennheiser_headset    UK England
+s0830024    f      logitech_headset      SC
+s0834892    f      logitech_headset/sennheiser_headset    NN Romanian
+s0836504    m      sennheiser_headset    NN Denmark
+s1050495    f      sennheiser_headset    NA
+s1052161    m      sennheiser_headset    UK England
+s1052483    m      sennheiser_headset    NN Chinese
+s1053080    f      logitech_headset      NN Germany
+s1054017    m      sennheiser_headset    NN Netherlands
+s1060613    f      logitech_headset      NN Germany
+s9061219    m      sennheiser_headset    SC
+
+
+Year: 2011-12
+
+Name      Gender        Microphone      Accent
+----      ------        ----------      ------
+s0680570    m      logitech_headset      UK Northern Ireland
+s0806577    m      logitech_headset      UK Southern England
+s0823571    f      logitech_headset      SC
+s0824968    m      logitech_headset      SC
+s0830862    f      logitech_headset      UK England
+s0832212    m      logitech_headset      UK England
+s0833088    m      logitech_headset      ??
+s0901872    f      logitech_headset      UK Northern England
+s0927722    m      logitech_headset      UK Northern England
+s0940658    m      logitech_headset      SC
+s1053697    f      logitech_headset      NN Polish
+s1057505    f      logitech_headset      NN Germany
+s1100218    m      logitech_headset      NA
+s1125835    m      logitech_headset      NN Greece
+s1128289    m      logitech_headset      NA
+s1135029    m      logitech_headset      NN Spain
+s1151467    m      logitech_headset      UK England
+s1157551    m      logitech_headset      NN China
+s1158260    f      logitech_headset      NN Denmark
+s1159094    f      logitech_headset      NA
+
+
+Year 2012-13
+
+Name      Gender        Microphone      Accent
+----      ------        ----------      ------
+s0680304    f      logitech_headset      UK England
+s0906559    m      logitech_headset      UK England
+s0907414    m      logitech_headset      NN ?
+s0938610    f      logitech_headset      UK England
+s0949139    m      laptop                NN Greek (macbook)
+s1021894    m      logitech_headset      SC
+s1200359    m      logitech_headset      UK Northern England
+s1212703    f      logitech_headset      NN China
+s1219694    f      logitech_headset      NN China
+s1242643    f      logitech_headset      NN China
+s1244635    f      logitech_headset      AZ Australia
+s1250520    m      logitech_headset      NN Portugal
+s1255719    f      logitech_headset      NN Greece
+s1261038    m      logitech_headset      NN China
+s1261066    f      logitech_headset      NN France
+s1262348    f      logitech_headset      NN Spain
+s1262980    f      logitech_headset      IE Ireland
+s1266300    f      logitech_headset      NN Netherlands
+s1266322    f      logitech_headset      NN German
+s1266927    f      logitech_headset      NN France
+
+
+
+Year 2013-14
+
+Name      Accent	Gender 		Microphone      	Rec Method	Rec Place
+----      ------	------  	----------      	----------	---------
+s1312082  NN		Male		logitech_headset		Praat		Lab
+s1355318  NN		Female		logitech_headset		Audacity	Lab
+s1367766  NN		Female		logitech_headset		Praat		Lab
+s1038946  NN		Male		Apple_EarPods		Audacity	Lab
+s0950147  UK		Female		iMac_inbuilt		Audacity	Lab
+s1336117  NN		Female		iMac_inbuilt		Audacity	Lab
+s1036740  NN		Female		logitech_headset		Praat		Lab
+s1114083  NA		Female		Acer_v5-571_inbuilt	Audacity	Home
+s0927462  UK		Female		iMac_inbuilt		Audacity	Lab
+s1006577  UK		Female		Dell_1555_inbuilt	Praat		Home
+s1148578  NN		Female		logitech_headset		Praat		Lab
+s1367959  NN (German)	Female		logitech_headset		Audacity	Lab
+s0946728  NN           Female	        iMac_builtin	       ??	        Home
+s1367454  NN           Female         logitech_headset          Audacity        Lab
+s0965856  SC 	Male	      logitech_headset	    Praat           Lab
+s1044253  NN (Latvia)  Male	      iMac_inbuilt	    ??		    Lab
+s1126144  SC	 Male		Behringer_B1		Audacity	Home
+s0934142  UK		Male		Gioteck_EX-02S		Audacity	Home
+
+
+Year 2014-15
+
+Name      Gender        Microphone      Accent
+----      ------        ----------      ------
+s1023125    f      logitech_headset       SC
+s1025224    m      logitech_headset       SC Edinburgh
+s1039137    m      logitech_headset       NN
+s1043206    m      logitech_headset       NN Norway
+s1058139    m      logitech_headset       NA
+s1106812    m      logitech_headset       NN Russia
+s1109026    f      logitech_headset       UK
+s1112290    m      logitech_headset       UK Northern England
+s1124728    m      laptop                 UK England (Lenovo)
+s1142034    m      logitech_headset       NN Sweden
+s1153100    m      logitech_headset       NN Kazakhstan
+s1202144    m      logitech_headset       NN Sweden/England
+s1204234    f      laptop                 UK Southern England (macbook)
+s1204877    f      laptop                 NN Romania (macbook)
+s1208001    f      logitech headset       UK RP 
+s1210107    m      logitech_headset       NN Dutch-Hungarian
+s1210764    f      logitech_headset       UK Southern England
+s1211535    m      logitech_headset       UK Northern England
+s1215573    m      logitech_headset       NN Italy
+s1218143    f      logitech_headset       UK Tyneside
+s1220880    m      logitech_headset       UK Slight Scottish Accent
+s1223356    m      logitech_headset       SC
+s1224425    m      logitech_headset       SC
+s1226443    m      logitech_headset       NN China
+s1229492    m      logitech_headset       SC
+s1232732    m      logitech_headset       SC Edinburgh
+s1236755    f      logitech_headset       NA
+s1239695    f      logitech_headset       NN India / US
+s1242775    m      logitech_noiseless_mic NN Netherlands
+s1244474    m      logitech_headset       NN Hungary
+s1245523    m      logitech_headset       NN Iran
+s1247148    f      rode_k2                NN China
+s1265676    m      logitech_headset       NN India
+s1333293    m      logitech_headset       NN Italy
+s1416663    f      logitech_headset       NN India
+s1420849    m      logitech_headset       NA
+s1428244    f      logitech_headset       NN China
+s1439222    f      CAD_U37_USB            NN Denmark
+s1440080    m      logitech_headset       NN Mexico
+s1444169    f      logitech_headset       NA USA
+s1449834    f      logitech_headset       NN Greece
+s1451388    f      logitech_headset       UK Cheshire
+s1458392    f      logitech_headset       NN Germany
+s1460138    m      laptop                 NN India  (macbook)
+s1462881    f      apple_headphones       NA
+s1462938    m      logitech_headset       UK
+s1464908    f      logitech_headset       NN Belgium
+s1466633    m      logitech_headset       NN Japan
+s1466724    f      logitech_headset       NN Italy
+s1466878    f      logitech_headset       NN China
+s1467926    m      logitech_headset       NA USA
+s1468596    f      logitech_headset       NN France
+s1469810    f      logitech_headset       NA
+s1473254    f      logitech_headset       NA American-Trinidadian 
+s1474926    m      logitech_headset       NN Thai
+
+
+Year 2015-16
+
+Name      Gender        Microphone      Accent
+----      ------        ----------      ------
+s1562085	m      sony_pulse_headset     NN Ecuador
+s0838587    m      logitech_headset       NN Poland
+s1567647    m      logitech_headset       NA USA
+s1574163    m      logitech_headset       UK Southern England
+s1566512    f      logitech_headset       NN Italy
+s1572044    f      logitech_headset       NN Spain (Catalonia)
+s1520582    m      logitech_headset       NN Germany
+s1562078    f      logitech_headset       NN Greece
+s1565865    f      logitech_headset       NN China
+s1533593    m      logitech_headset       NN Italy
+s1471823    f      logitech_headset       NN Saudi Arabia
+s1423284    f      logitech_headset       NN China
+s1556756    m      logitech_headset       NN Greece
+s1212806    f      apple_headphones       NN mixed
+s1523545    m      logitech_headset       UK Southern England
+s0907677    f      logitech_headset       NN Poland
+s1105102    f      logitech_headset       UK Southern England
+s1205542    m      logitech_headset       UK Southern England
+s1474784    f      logitech_headset       NN Germany
+s1564606    f      logitech_headset       NA
+s1119520    m      logitech_headset       NN Lithuania
+s1564218    f      microsoft_headset      NA USA
+s1572403    f      logitech_headset       NN Italy
+s1520337    f      logitech_headset       NN Chile
+s1574060    m      logitech_headset       NN Poland
+s1523985    f      microsoft_headset      NA USA
+s1551548    f      logitech_headset       NN China
+s1309783    f      logitech_headset       NN Thailand
+s1571333    m      logitech_headset       NN France
+s1345654    f      logitech_headset       UK Northern England / Midlands
+s1531259    m      logitech_headset       NN China
+s1204698    f      logitech_headset       NN Italy
+s1344727    m      realtek_high_definition_audio    NN Italy
+s1115924    f      logitech_headset       UK Northern England
+s1473791    m      logitech_headset       NN Spain
+s1522072    f      logitech_headset       NN Russia
+s1566641    m      logitech_headset       NA USA
+s1345679    m      logitech_headset       NN Hungary
+s1206798    m      logitech_headset       NN Germany
+s1245738    m      logitech_headset       NN Slovakia
+s1348525    m      logitech_headset       SC
+s1247563    m      logitech_headset       NN Belgium
+s1345717    f      logitech_headset       NN Italy
+s1248784    f      logitech_headset       NN Austria
+s1241360    f      logitech_headset       NN India
+s1219096    m      apple_headphones       SC
+s1364645    m      logitech_headset       NA USA
+s1332702    f      logitech_headset       SC
+s1309426    m      logitech_headset       NA USA
+s1126761    m      logitech_headset       SC
+s1354741    m      logitech_headset       NN Czech Republic
+s1213677    m      apple_headphones       UK Southern England
+
+
+
+Year 2016-17
+students were asked to use their built-in laptop microphone
+
+Name      Gender        Microphone      Accent
+----      ------        ----------      ------
+s1332298    m      laptop                 SC (dual digital array Lenovo S210)
+s1680167    m      laptop                 NN Germany (clevo-w840su)
+s1680221    m      laptop                 NN Italy (ThinkpadT420)
+s1676942    m      laptop                 NN Germany (macbook)
+s1431869    f      laptop                 UK Northern England (macbook)
+s1326224    m      laptop                 SC (hp_envy)
+s1651400    m      laptop                 UK East Anglia (macbook)
+s1616820    f      laptop                 NA California (macbook)
+s1604824    f      laptop                 NA USA (macbook)
+s1668016    f      laptop                 NN France (macbook)
+s1451606    f      laptop                 NA (macbook)
+s1674808    f      laptop                 NA (macbook)
+s1653112    m      laptop                 UK Northern England (macbook)
+s1684093    m      laptop                 NN Sweden (macbook)
+s1640648    f      laptop                 NA California (macbook)
+s1676751    f      laptop                 NN Chinese (macbook)
+s1624468    m      laptop                 NN China (macbook)
+s1614280    f      laptop                 NN China (macbook)
+s1522469    ?      laptop                 NN China (macbook)
+s1471720    m      laptop                 NN Norway (macbook)
+s1473099    f      laptop                 NA USA (macbook)
+s1348495    f      laptop                 NN Sweden (HP EliteBook 8540w)
+s1679421    m      laptop                 NN Netherlands (macbook)
+s1631008    f      laptop                 NN China (HPdv3)
+s1312747    m      iMac                   NA American
+s1648755    m      laptop                 NN China (dell)
+s1670392    f      laptop                 NN Greece (HP 15-ac113nv)
+s1671540    m      laptop                 NN Chinese (dell)
+s1469488    m      laptop                 NN China (macbook)
+s1671123    m      laptop                 NN China (macbook)
+s1649890    m      laptop                 UK Southern (macbook)
+s1674500    f      iMac                   NN Austria/Scotland
+s1670238    m      laptop                 NN Germany (Lenovo100S)
+s1443906    m      laptop                 GA (macbook)
+s1217013    m      LogitechA-0060A        UK Southern England
+s1569669    f      laptop                 NN Greece (macbook)
+s1685899    m      laptop                 NA (macbook)
+s1623659    f      laptop                 UK West Midlands (Schenker XMG A305)
+s1304005    f      laptop                 UK Southern England (macbook)
+s1525891    m      laptop                 NA Canada (macbook)
+s1407470    m      laptop?                SC Edinburgh
+s1347498    f      laptop                 NN Lithuania (macbook)
+s1671513    m      laptop                 NN China (E325)
+s1659887    f      laptop                 NN China (macbook)
+s1617188    m      iMac                   NN China
+s1301784    f      laptop                 UK Southern England (lenovo b40)
+s1309096    m      iMac                   NN Romania
+s1407470    m      laptop                 SC Edinburgh (pcspecialist cosmos II )
+s1683786    f      laptop                 NN Italy (HP Stream 11)
+s1412010    f      laptop                 UK England (HP Envy)
+s1324313    f      iMac                   SC
+s1424248    m      laptop                 SC Central (dell xps)
+s1208647    m      laptop                 IE Ireland (acer)
+s1226594    m      laptop                 SC (Dell Alienware 15)
+s1351989    m      iMac                   NN India
+s1440799    f      laptop                 NN Bulgaria (Dell)
+s1675173    f      laptop                 NN Greece (Realtek HD Audio/Lenovo B50)
+s1451772    m      laptop                 NN Lithuania (asusn56vb)
+s1537176    m      laptop                 NN China (dell-1545)
+s1306782    m      laptop                 NN Denmark (macbook)
+s1454439    f      laptop                 NN Germany (macbook)
+s1343872    m      laptop                 SC (Dell Inspiron)
+s1233656    f      laptop                 NN Bulgaria (ASUS)
+
+Year 2017-18
+students were asked to use the built-in microphone on an iMac in the computing lab
+
+Name      Gender        Microphone      Accent
+----      ------        ----------      ------
+s1777805 f iMac NN Norway
+s1702456 f iMac NN Russia
+s1700949 f iMac UK Northern England
+s1520780 f iMac UK Northern England
+s1780755 f iMac NN Russia
+s1775230 f iMac NN Canada Quebec
+s1408393 f iMac UK Southern England
+s1719048 f iMac NN China
+s1773886 m iMac NA USA
+s1792565 m iMac UK Southern England
+s1322332 m iMac UK Southern England
+s1747145 m iMac NN Taiwan
+s1785140 m iMac UK Northern England
+s1619123 f iMac NN China
+s1763562 f iMac NA USA
+s1225708 f iMac SC
+s1777015 m iMac NN China
+s1731620 f iMac UK Northern England
+s1243195 m iMac SC
+s1776575 f iMac NN HongKong
+s1771379 f iMac IE Ireland
+s1718204 m iMac NN China
+s1788803 m iMac NN Denmark
+s1240595 m iMac NA USA
+s1675924 f iMac NN Ecuador
+s1770642 f iMac NN China
+s1783009 m iMac UK Southern England
+s1739009 m iMac NN Germany
+s1444618 f iMac NN Germany
+s1533260 f iMac NN Cyprus
+s1546267 m laptop NN China (MSIGS60)
+s1785247 m iMac SG Singapore
+s1531452 f iMac UK Southern England RP
+s1357269 f iMac NA Canada
+s1789553 m iMac NN Netherlands
+s1514261 f iMac UK Northern England (North East)
+s1672756 m iMac UK Southern England
+s1531466 f iMac UK South Yorkshire
+s1789699 f iMac NN Spain (Catalonia)
+s1676749 m iMac UK Northern Ireland
+s1720613 g iMac NN China
+s1779732 f iMac NN Germany
+s1727834 g iMac NN France
+s1532662 m iMac UK
+s1775678 f iMac UK Southern England
+s1757126 m laptop NN Lebanon MacBookPro
+s1718768 f iMac NN China
+s1794269 f iMac NN Greece
+s1524812 f iMac IE Ireland
+s1780852 f iMac NN Netherlands
+s1408442 f iMac UK Southern England
+s1789041 f iMac NN Germany
+s1775528 f iMac IE Ireland
+s1515343 f iMac UK Welsh
+s1759422 m laptop NA Canada MacBookPro
+s1743971 g iMac NN France
+s1313407 f iMac NA USA
+s1305077 f iMac UK Southern English
+s1731574 f iMac WSAfE South Africa
+s1723289 f iMac NA USA
+s1778033 f iMac NA USA
+s1513071 m iMac NN Cyprus
+
+Year 2018-19
+students were again asked to use the built-in microphone on an iMac in the computing lab
+
+Name      Gender        Microphone      Accent
+----      ------        ----------      ------
+s1777759 m iMac NN China
+s1881336 f iMac UK Southern England
+s1834065 m iMac NN HongKong
+s1873815 f iMac NA USA
+s1870525 m iMac NN Chile
+s1878482 f iMac NN Italy
+s1888641 m iMac UK Southern English
+s1876797 f iMac NN Taiwan
+s1834488 f iMac NN China
+s1820672 m iMac NN China
+s1821905 f iMac NN China
+s1689291 f iMac NA USA
+s0830510 m iMac UK Southern English
+s1527110 m iMac UK South-West England
+s1878665 m iMac NN Iceland
+s1773321 f iMac NN Greece
+s1689921 f iMac NN Moldova
+s1829150 f iMac NN China
+s1513472 m iMac NN Slovakia
+s1853296 f iMac NA USA
+s1444568 f iMac NA USA
+s1826182 f iMac NN China
+s1879088 m iMac NN Chile
+s1630726 m iMac NN China
+s1834482 f iMac NA USA
+s1818420 f iMac NN China
+s1682062 m iMac NN China
+s1877776 f iMac NN Korea
+s1856289 f iMac NA USA
+s1507425 f iMac NN Bulgaria
+s1879523 f iMac UK Northern England
+s1832577 m iMac NA USA
+s1509520 f iMac NA USA
+s1885873 m iMac UK Southern English
+s1451567 m iMac NN Singapore
+s1826151 f iMac NN China
+s1406597 m iMac UK Scotland
+s1681275 f iMac NA
+s1879338 f iMac NN China
+s1819956 f iMac NN China
+s1613936 m iMac NN China
+s1558410 f iMac NN Singapore
+s1604424 m iMac NN Hong_Kong
+s1404518 m iMac UK RP
+s1608591 m iMac UK
+s1531206 m iMac UK English
+s1893594 m iMac NA USA
+s1605551 f iMac NN Sweden
+s1888630 f iMac NN Greece
+s1888955 f iMac NN Germany
+s1457828 f iMac NA Canada
+s1879517 f iMac NN Germany
+s1630045 f iMac Scottish
+s1512295 m iMac NN Finland
+s1452790 m iMac NN Netherlands
+s1470269 m iMac NN Bulgaria
+s1647760 f iMac NN Malaysia
+
+Year 2019-20
+students were asked to use a mobile phone
+
+Name      Gender        Microphone      Accent
+----      ------        ----------      ------
+
+s1784888 m MacBook_Pro NN China

@@ -1,0 +1,19 @@
+columns 3 font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+junk junk
+zero zero
+one one
+two two
+three three
+four four
+five five
+six six
+seven seven
+eight eight
+nine nine
+UNLOAD *UNLOAD*
+INSERT *INSERT*
+DELETE! *DEL*
+REPLACE *REPLACE*
+MOVE *MOVE*
+EDIT *EDIT*
+PRINT *PRINT*
