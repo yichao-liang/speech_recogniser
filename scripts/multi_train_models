@@ -16,9 +16,9 @@ USERLIST=$1
 for WORD in `cat ../resources/word_list`
 do
 
- echo training model of $WORD
+ # echo training model of $WORD
 
- HRest -T 1 \
+ HRest -T 0 \
 	-G ESPS \
         -m 1 \
         -C ../resources/CONFIG \
@@ -29,4 +29,3 @@ do
 	../models/hmm0/$WORD
 
 done
-

@@ -9,5 +9,6 @@ LISTRESULTSLABEL=../list/list_results_label.scp
 # Path of List of recognised multi_results
 LISTRESULTSREC=../list/list_results_rec.scp
 
-./multi_recognise_test_data $LISTRECOGNISER
-./multi_results $LISTRESULTSLABEL $LISTRESULTSREC
+
+../scripts/multi_recognise_test_data $LISTRECOGNISER
+../scripts/multi_results $LISTRESULTSLABEL $LISTRESULTSREC

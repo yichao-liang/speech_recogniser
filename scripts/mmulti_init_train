@@ -4,5 +4,5 @@
 LISTINIT=../list/list_init_train.scp
 
 
-./multi_Initialise_models $LISTINIT
-./multi_train_models $LISTINIT
+../scripts/multi_Initialise_models $LISTINIT
+../scripts/multi_train_models $LISTINIT

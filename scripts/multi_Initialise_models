@@ -15,19 +15,19 @@ USERLIST=$1
 
 
 # how many states is determined by the choice of prototype model
-# remember - two of these states are dummy, so the 3state model only 
+# remember - two of these states are dummy, so the 3state model only
 # has a single emitting state
 
 PROTO=5state
-set -x
+# set -x
 
 # initialise each model
 for WORD in `cat ../resources/word_list`
 do
 
- echo Initialising model of $WORD
+ # echo Initialising model of $WORD
 
- HInit -T 1 \
+ HInit -T 0 \
 	-G ESPS \
         -m 1 \
         -C ../resources/CONFIG \
