@@ -13,7 +13,7 @@ RECLIST=$2
 # and to access all data from all years, use this path
 # DATA=${DATA:-/Volumes/Network/courses/sp/data}
 
-# shopt -s extglob
+shopt -s extglob
 
 for i in `cat $LABELLIST`; do
 	inargs+=( -I "$i")

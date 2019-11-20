@@ -10,7 +10,7 @@ TESTLIST=$1
 # USER=simonk
 # and to access all data from all years, use this path
 
-# shopt -s extglob
+shopt -s extglob
 
 for F in `cat $TESTLIST`
 do
