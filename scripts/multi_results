@@ -4,10 +4,10 @@
 # to use your own data, this automatically sets USER to be your username
 #USER=${USER:-`whoami`}
 # and this is the path to where your data was placed by the make_mfccs script
-DATA=/Volumes/Network/courses/sp/data_upload
+DATA=/Volumes/Network/courses/sp/data
 # The place where the labels are stored
-LABELLIST=$1
-RECLIST=$2
+LABELLIST=../list/list_results_label.scp
+RECLIST=../list/list_results_rec.scp
 # later, to use another user's data, for example "simonk"
 # USER=simonk
 # and to access all data from all years, use this path
@@ -24,6 +24,8 @@ HResults \
  -S $RECLIST \
  ../resources/word_list | grep WORD #>> ../scores/${USERNAME}.txt
 
+rm -f ../models/hmm*/*
+rm -f ../rec/*
 
 
 # to do results for more than one speaker you need to load more than

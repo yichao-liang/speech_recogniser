@@ -4,7 +4,7 @@
 # USER=${USER:-`whoami`}
 
 # and this is the path to where your data was placed by the make_mfccs script
-DATA=/Volumes/Network/courses/sp/data_upload
+DATA=/Volumes/Network/courses/sp/data
 
 # The data path for the file that specifing all the users list
 USERLIST=$1

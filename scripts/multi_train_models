@@ -8,7 +8,7 @@
 # later, to use another user's data, for example "simonk"
 # USER=simonk
 # and to access all data from all years, use this path
-DATA=/Volumes/Network/courses/sp/data_upload
+DATA=/Volumes/Network/courses/sp/data
 
 # Data path specifying the scp that stores all the training names
 USERLIST=$1
