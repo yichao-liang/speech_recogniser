@@ -11,6 +11,7 @@ Year,Index,Name,Gender,Microphone,Accent
 2002-3,20,michaels,m,big,UK
 2002-3,23,timm,m,headset,NA
 2003-4,7,s0348129,m,headset/headset,NN China
+2003-4,8,s0343949,f,headset/headset,NA
 2003-4,9,s0344328,m,big/big,NN Iceland
 2003-4,10,s0343559,m,big/big,NN Pakistan
 2003-4,15,joshua,m,headset/headset,NA
@@ -23,6 +24,7 @@ Year,Index,Name,Gender,Microphone,Accent
 2004-5,11,s0454291,m,big,SC
 2004-5,15,s0455511,m,big,NN Belgium
 2004-5,18,taal11,m,big,SC
+2005-6,4,s0565246,f,headset,NN Germany
 2005-6,5,s0565563,m,headset,NN Sweeden
 2005-6,6,s0565839,f,headset,NN Germany
 2006-7,1,s0451342,m,headset,UK
@@ -43,12 +45,14 @@ Year,Index,Name,Gender,Microphone,Accent
 2011-12,4,s0830862,f,logitech_headset,UK England
 2011-12,9,s0940658,m,logitech_headset,SC
 2011-12,12,s1100218,m,logitech_headset,NA
+2011-12,14,s1128289,m,logitech_headset,NA
 2011-12,16,s1151467,m,logitech_headset,UK England
 2011-12,17,s1157551,m,logitech_headset,NN China
 2011-12,19,s1159094,f,logitech_headset,NA
 2012-13,0,s0680304,f,logitech_headset,UK England
 2012-13,4,s0949139,m,laptop,NN Greek (macbook)
 2012-13,11,s1250520,m,logitech_headset,NN Portugal
+2012-13,12,s1255719,f,logitech_headset,NN Greece
 2012-13,19,s1266927,f,logitech_headset,NN France
 2013-14,0,s1312082,Male,logitech_headset Praat Lab,NN
 2013-14,1,s1355318,Female,logitech_headset Audacity Lab,NN
@@ -76,17 +80,22 @@ Year,Index,Name,Gender,Microphone,Accent
 2014-15,33,s1439222,f,CAD_U37_USB,NN Denmark
 2014-15,34,s1440080,m,logitech_headset,NN Mexico
 2014-15,36,s1449834,f,logitech_headset,NN Greece
+2014-15,38,s1458392,f,logitech_headset,NN Germany
 2014-15,40,s1462881,f,apple_headphones,NA
 2014-15,42,s1464908,f,logitech_headset,NN Belgium
 2014-15,43,s1466633,m,logitech_headset,NN Japan
 2014-15,44,s1466724,f,logitech_headset,NN Italy
 2014-15,49,s1473254,f,logitech_headset,NA American-Trinidadian 
+2015-16,1,s0838587,m,logitech_headset,NN Poland
+2015-16,2,s1567647,m,logitech_headset,NA USA
 2015-16,3,s1574163,m,logitech_headset,UK Southern England
 2015-16,4,s1566512,f,logitech_headset,NN Italy
 2015-16,6,s1520582,m,logitech_headset,NN Germany
 2015-16,8,s1565865,f,logitech_headset,NN China
 2015-16,9,s1533593,m,logitech_headset,NN Italy
+2015-16,11,s1423284,f,logitech_headset,NN China
 2015-16,13,s1212806,f,apple_headphones,NN mixed
+2015-16,15,s0907677,f,logitech_headset,NN Poland
 2015-16,17,s1205542,m,logitech_headset,UK Southern England
 2015-16,19,s1564606,f,logitech_headset,NA
 2015-16,20,s1119520,m,logitech_headset,NN Lithuania
@@ -110,6 +119,7 @@ Year,Index,Name,Gender,Microphone,Accent
 2016-17,2,s1676942,m,laptop,NN Germany (macbook)
 2016-17,3,s1326224,m,laptop,SC (hp_envy)
 2016-17,4,s1616820,f,laptop,NA California (macbook)
+2016-17,6,s1668016,f,laptop,NN France (macbook)
 2016-17,7,s1451606,f,laptop,NA (macbook)
 2016-17,9,s1684093,m,laptop,NN Sweden (macbook)
 2016-17,10,s1640648,f,laptop,NA California (macbook)
@@ -121,6 +131,7 @@ Year,Index,Name,Gender,Microphone,Accent
 2016-17,21,s1671540,m,laptop,NN Chinese (dell)
 2016-17,22,s1469488,m,laptop,NN China (macbook)
 2016-17,23,s1671123,m,laptop,NN China (macbook)
+2016-17,24,s1649890,m,laptop,UK Southern (macbook)
 2016-17,25,s1674500,f,iMac,NN Austria/Scotland
 2016-17,27,s1443906,m,laptop,GA (macbook)
 2016-17,28,s1217013,m,LogitechA-0060A,UK Southern England
@@ -237,3 +248,7 @@ Year,Index,Name,Gender,Microphone,Accent
 2019-20,44,s1995898,m,iphone_xr,Singapore
 2019-20,45,s1510868,m,apple_iphone_10,AZ
 2019-20,46,s1999989,f,apple_iphone_8,NN Germany
+2019-20,47,s1706878,m,samsung_galaxy_s8,UK Northern England
+2019-20,48,s1766810,f,apple_iphone8,NN Hungary
+2019-20,49,s1926421,f,apple_iphone_xr,NN China
+2019-20,50,s1702630,f,apple_iphone_se,NN China
