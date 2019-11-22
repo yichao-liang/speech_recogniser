@@ -50,7 +50,7 @@ then
     echo "Running in local mode using "${DATA}
 	for TYPE in wav mfcc lab
 	do
-		for PARTITION in train test
+		for PARTITION in train test_seq
 		do
 			mkdir -p ${DATA}/${TYPE}/${PARTITION}
 		done
@@ -100,10 +100,10 @@ else
 	exit
 fi
 
-F=lab/${USER}_test.mlf
+F=lab/${USER}_test_seq.mlf
 if test -f $F
 then
-	cp $F ${DATA}/lab/test/
+	cp $F ${DATA}/lab/test_seq/
 else
 	echo "Cannot find your test labels, which should be in" $F
 	exit
@@ -111,19 +111,19 @@ fi
 
 
 # first, process the training data, which must be called something like "simonk_test01.wav"
-for F in `ls wav/${USER}_test?(_)??.wav`
+for F in `ls wav/seq/*.wav`
 do
 
 	if test -f $F
 	then
 
-		echo Converting $F "to correct waveform format and saving in" ${DATA}/wav/test/`basename $F`
-		ch_wave -F 16000 -otype nist -c 0 -o ${DATA}/wav/test/`basename $F` $F
+		echo Converting $F "to correct waveform format and saving in" ${DATA}/wav/test_seq/`basename $F`
+		ch_wave -F 16000 -otype nist -c 0 -o ${DATA}/wav/test_seq/`basename $F` $F
 
 		echo Making MFCCs for $F
 		HCopy -T 1 -C resources/CONFIG_for_coding \
-       		${DATA}/wav/test/`basename $F`\
-       		${DATA}/mfcc/test/`basename $F .wav`.mfcc
+       		${DATA}/wav/test_seq/`basename $F`\
+       		${DATA}/mfcc/test_seq/`basename $F .wav`.mfcc
 	else
 		echo "Cannot find the test waveform" $F
 		exit

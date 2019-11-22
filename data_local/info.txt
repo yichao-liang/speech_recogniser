@@ -1,1 +1,5 @@
 s1735938 g iMac NN France
+s1735938 m apple_iphone_X NN China
+s1735938 m apple_iphone_X NN China
+s1735938 m apple_iphone_X NN China
+s1735938 m apple_iphone_X NN China
