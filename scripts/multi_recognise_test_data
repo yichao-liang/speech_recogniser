@@ -6,6 +6,11 @@ TESTLIST=../list/list_recogniser.scp
 # and this is the path to where your data was placed by the make_mfccs script
 #DATA=${DATA:-/Volumes/Network/courses/sp/data_upload}
 
+# setting multi_train_models
+MODEL=${1:-hmm1}
+
+# beam-width to use for Viterbi search
+BEAM=${2:-0}
 # later, to use another user's data, for example "simonk"
 # USER=simonk
 # and to access all data from all years, use this path
@@ -19,8 +24,9 @@ do
  # echo
  # echo Doing $F
 
- HVite -T 0 -C ../resources/CONFIG \
-	-d ../models/hmm1 \
+ HVite -T 1 -C ../resources/CONFIG \
+	-d ../models/${MODEL} \
+  -t $BEAM \
 	-l ../rec \
 	-w ../resources/grammar_as_network \
 	../resources/dictionary \

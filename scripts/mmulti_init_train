@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-PROTO=${1:-5state}
+PROTO=${1:-5state_MFCC_E_D_A}
 # Path of List of training data
 LISTINIT=../list/list_init_train.scp
 
