@@ -29,3 +29,9 @@ do
 	$F
 
 done
+# Added the contect from seq_result
+HResults -p -t -e s junk -z s \
+ -I ${DATA}/lab/test_seq/${USER}_test_seq.mlf \
+ ../resources/seq_word_list \
+ ../rec/*
+

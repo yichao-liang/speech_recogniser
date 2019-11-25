@@ -18,7 +18,7 @@ USERLIST=$1
 # remember - two of these states are dummy, so the 3state model only
 # has a single emitting state
 
-PROTO=5state
+PROTO=${2:-5state}
 # set -x
 
 # initialise each model
