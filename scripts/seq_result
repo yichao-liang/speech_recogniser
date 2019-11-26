@@ -20,7 +20,8 @@ HResults -p -t -e s junk -z s \
  ../rec/*
 
 
-
+ rm -f ../models/hmm*/*
+ rm -f ../rec/*
 # to do results for more than one speaker you need to load more than
 # one MLF and more than one set of .rec files. Do it like this:
 #

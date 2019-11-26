@@ -2,15 +2,16 @@
 
 # to use your own data, this automatically sets USER to be your username
 #USER=${USER:-`whoami`}
-USER=${1:-'whoami'}
+USER=`whoami`
 # and this is the path to where your data was placed by the make_mfccs script
 #DATA=${DATA:-/Volumes/Network/courses/sp/data_upload}
 
 # later, to use another user's data, for example "simonk"
 # USER=simonk
 # and to access all data from all years, use this path
-DATA=${2:-../data_local}
+DATA=../data_local
 
+PRUNING=${1:-0.0}
 # shopt -s extglob
 
 for F in `ls ${DATA}/mfcc/test_seq/*.mfcc`
@@ -20,7 +21,7 @@ do
  # echo
  # echo Doing $F
 
- HVite -T 1 -C ../resources/CONFIG -p -100.0\
+ HVite -T 1 -C ../resources/CONFIG -p $PRUNING\
 	-d ../models/hmm1 \
 	-l ../rec \
 	-w ../resources/digit_sequence_grammar_as_network \
@@ -35,3 +36,5 @@ HResults -p -t -e s junk -z s \
  ../resources/seq_word_list \
  ../rec/*
 
+ rm -f ../models/hmm*/*
+ rm -f ../rec/*

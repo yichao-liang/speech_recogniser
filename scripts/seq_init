@@ -17,7 +17,7 @@ echo $USER
 # remember - two of these states are dummy, so the 3state model only
 # has a single emitting state
 
-PROTO=5state
+PROTO=5state_MFCC_E_D_A
 set -x
 
 # initialise each model
