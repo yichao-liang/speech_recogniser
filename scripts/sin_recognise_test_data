@@ -10,7 +10,7 @@ USER=${1:-'whoami'}
 # USER=simonk
 # and to access all data from all years, use this path
 DATA=${2:-/Volumes/Network/courses/sp/data}
-
+LMSF=${3:-1.0}
 # shopt -s extglob
 
 for F in `ls ${DATA}/mfcc/test/${USER}_test?(_)??.mfcc`
@@ -23,6 +23,7 @@ do
  HVite -T 0 -C ../resources/CONFIG \
 	-d ../models/hmm1 \
 	-l ../rec \
+  -s $LMSF \
 	-w ../resources/grammar_as_network \
 	../resources/dictionary \
 	../resources/word_list \

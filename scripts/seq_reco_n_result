@@ -13,6 +13,7 @@ DATA=../data_local
 
 PRUNING=${1:-0.0}
 # shopt -s extglob
+LMSF=${2:-1.0}
 
 for F in `ls ${DATA}/mfcc/test_seq/*.mfcc`
 do
@@ -24,6 +25,7 @@ do
  HVite -T 1 -C ../resources/CONFIG -p $PRUNING\
 	-d ../models/hmm1 \
 	-l ../rec \
+  -s $LMSF \
 	-w ../resources/digit_sequence_grammar_as_network \
 	../resources/dictionary \
 	../resources/seq_word_list \

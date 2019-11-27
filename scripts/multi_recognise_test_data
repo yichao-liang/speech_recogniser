@@ -11,6 +11,9 @@ MODEL=${1:-hmm1}
 
 # beam-width to use for Viterbi search
 BEAM=${2:-0}
+
+# language model scaling factor
+LMSF=${3:-1.0}
 # later, to use another user's data, for example "simonk"
 # USER=simonk
 # and to access all data from all years, use this path
@@ -27,6 +30,7 @@ do
  HVite -T 1 -C ../resources/CONFIG \
 	-d ../models/${MODEL} \
   -t $BEAM \
+  -s $LMSF \
 	-l ../rec \
 	-w ../resources/grammar_as_network \
 	../resources/dictionary \
